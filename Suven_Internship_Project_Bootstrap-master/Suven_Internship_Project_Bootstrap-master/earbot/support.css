@@ -1,0 +1,41 @@
+
+.jumbotron{
+    height: 100px;
+}
+  .jumbotron h4{
+      margin-top: 10px;
+  }
+
+.bottom{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    height: 200px;
+}
+.colortitle{
+    background-color: blue;
+    color: white;
+}
+.cardcolor{
+    background-color: green;
+    color: white;
+}
+.spacing{
+    width: 650px;
+}
+h4{
+    display: inline-block;
+}
+.sizing{
+    padding-top: 58px;
+}
+
+@media screen and (max-width: 500px){
+    .spacing{
+        max-width: 200px;
+    }
+    .jumbotron h4{
+        margin-top: 28px;
+    }
+}

@@ -1,0 +1,38 @@
+.jumb{
+    background-image: url("https://careerkarma.com/blog/wp-content/uploads/2019/06/zany-jadraque-571205-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.jumbotron h1{
+    color: white;
+    margin-left: 60px;
+    margin-top: 100px;
+    font-family: serif;
+    font-size: 60px;
+}
+.jumbotron h5{
+    color: grey;
+    margin-left: 60px;
+    font-style: italic;
+    font-size: 25px;
+}
+.colorback{
+    background: linear-gradient(to right, #552586 0%, #DD08B8 25%, #E61F20 50%, #F34F4E 75%, #FB8CAB 100%)
+}
+#my{
+    background-color: lightgray !important;
+}
+.card:hover{
+    box-shadow: 2px 2px 18px  grey;
+}
+ul{
+    list-style-type: none;
+}
+.background{
+    background-color: #f3f3f3;
+}
+footer{
+    background-color: black;
+    color: white;
+}

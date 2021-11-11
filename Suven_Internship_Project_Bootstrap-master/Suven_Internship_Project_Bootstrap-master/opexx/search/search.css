@@ -1,0 +1,51 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+:root {
+    --main-color: #21ba45;
+    --white-color: #fff;
+    --back-color: #f2f2f2;
+    --dark-color: #23272b;
+}
+
+/*****************************************Navbar*****************************************/
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--white-color);
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--white-color);
+}
+/*****************************************END Navbar*****************************************/
+
+/***************************************** start heading*****************************************/
+
+.search-nav{
+    text-align: center;
+    margin: 0;
+    background-color: #5DBCD2;
+    padding: 0;
+}
+.search-nav li{
+    display: inline-flex;
+}
+li a{
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    align-items: center;
+    padding: 14px 15px;
+}
+.jumbotron{
+    background-color: #5DBCD2;
+    border-radius: 0px;
+    padding: 1rem 1rem;
+}
+/***************************************** End heading*****************************************/

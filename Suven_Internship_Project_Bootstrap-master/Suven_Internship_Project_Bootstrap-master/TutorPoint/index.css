@@ -1,0 +1,270 @@
+.header-section {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.site-btn {
+    display: inline-block;
+    min-width: 196px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    background: #d82a4e;
+}
+
+.navbar-light .navbar-collapse ul li a {
+    margin-left: 45px;
+    font-weight: 600;
+    color: #fff!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+    background: white;
+}
+
+.navbar-light .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #d82a4e!important;
+}
+
+.set-bg {
+    position: relative;
+    width: 100%;
+    background: url(img/tuto.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-section::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    top: 340px;
+}
+
+.intro-newslatter input[type=text],
+.intro-newslatter input[type=email] {
+    height: 53px;
+    width: 36.4%;
+    padding: 0 30px;
+    margin-right: 22px;
+    float: left;
+    border: none;
+    font-size: 14px;
+}
+
+.form:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 105px;
+}
+
+.categories-section .container {
+    margin-bottom: -34px;
+    background-color: #cccccc;
+}
+
+.categories-section {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.text-body {
+    padding: 40px 35px;
+}
+
+.text-body:hover {
+    background-color: #d82a4e;
+    color: #fff;
+}
+
+.text-body:hover .card-title {
+    background-color: #d82a4e;
+    color: #fff;
+}
+
+.text-body:hover span {
+    color: #fff!important;
+}
+
+.text-body span {
+    font-weight: 600;
+    color: #d82a4e;
+}
+
+.search-warp {
+    background: #d82a4e;
+    padding-top: 44px;
+    padding-bottom: 38px;
+}
+
+.section-title {
+    padding: 0 110px;
+    margin-bottom: 30px;
+}
+
+.course-search-form {
+    background: white;
+    padding: 44px 38px;
+}
+
+.course-search-form .site-btn {
+    min-width: 150px;
+    padding: 16px 10px;
+}
+
+.course-search-form input[type=text],
+.course-search-form input[type=email] {
+    height: 56px;
+    width: 34.4%;
+    padding: 0 30px;
+    margin-right: 18px;
+    float: left;
+    border: none;
+    font-size: 14px;
+    background: #edf4f6;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #d82a4e;
+}
+
+@media only screen and (max-width: 992px) {
+    .intro-newslatter input[type=text],
+    .intro-newslatter input[type=email] {
+        margin-bottom: 20px;
+        width: 47.6%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .intro-newslatter input[type=text],
+    .intro-newslatter input[type=email] {
+        margin-bottom: 20px;
+        width: 46.6%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .intro-newslatter input[type=text].last-s,
+    .intro-newslatter input[type=email].last-s {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .course-search-form input[type=text],
+    .course-search-form input[type=email] {
+        width: 45.4%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .search-warp {
+        padding: 40px 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .course-search-form input[type=text],
+    .course-search-form input[type=email] {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .header-btn {
+        min-width: 90px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .navbar-light .navbar-collapse ul li a {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-collapse {
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-light .navbar-collapse ul li a {
+        margin-left: 0;
+        padding: 17px 25px;
+        border-bottom: 1px solid #e8e8e8;
+        display: block;
+        color: #474747!important;
+    }
+}

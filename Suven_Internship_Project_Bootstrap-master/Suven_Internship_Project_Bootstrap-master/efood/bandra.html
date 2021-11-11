@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Efood</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <style>
+        .zoom {
+            transition: transform .1s;
+        
+          }
+          
+          .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+          }
+          .margin{
+            margin-top: 100px;
+               }
+          footer{
+            margin-top: 50px;
+              }
+            ul{
+             list-style-type: none;
+             }
+           hr{
+             background-color: white; 
+             width: 1200px;
+             }
+
+            @media screen and (max-width: 500px){
+                 hr{
+                      width: 400px;
+                }
+                }
+
+        </style>  
+    </head>
+    <body>
+      <!--nav-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">e-<span style="color: darkgreen;">Food</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Steps</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-map-marker mr-2"></i>Choose Your Location
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="andheri.html">Andheri</a>
+                <a class="dropdown-item" href="#">Bandra</a>
+                <a class="dropdown-item" href="borivali.html">Borivalli</a>
+                <a class="dropdown-item" href="kandivali.html">Kandivalli</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up Now</a>
+            </li>
+            </ul>
+        </div>
+      </nav>
+      <!--nav-->
+      <h2 class="text-center mt-2">Bandra</h2>
+      <!--div section-->
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-4 mt-3">
+                     <div class="card zoom">
+                        <div class="card-heading ml-3 mr-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSASg4KF0P7zaV6bulNvMWsIyWo2CQnz65pWw&usqp=CAU" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                        </div> 
+                         <div class="card-body text-center">
+                             <h5 class="card-title">Franks</h5>
+                             <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="far fa-star" aria-hidden="true"></i>
+                             <p class="card-text">Average 4/5 </p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-4 mt-3">
+                    <div class="card zoom">
+                        <div class="card-heading ml-3 mr-3">
+                            <img src="https://heartofncweddings.com/wp-content/uploads/2013/04/Natural-themed-Chocolate-Cupcakes-with-faux-wood-cupcake-wrappers-by-Pastry-Works-Riley-MacLean-Photography.jpg" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                        </div> 
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pastel Works</h5>
+                            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+                            <p class="card-text">Average 5/5 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="card zoom">
+                        <div class="card-heading ml-3 mr-3">
+                            <img src="https://lh3.googleusercontent.com/JsRGPV6lVgLZdlp4NOysK4HIzhZNspbEOk90NmFKTfnIBohHTG8D1GDMSvRvrGHJi9LX3m6LW5y5f0Z39AWCEjqRuQ=w512" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                        </div> 
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Oye Teri</h5>
+                            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="far fa-star" aria-hidden="true"></i><i class="far fa-star" aria-hidden="true"></i>
+                            <p class="card-text">Average 3/5 </p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card zoom">
+                       <div class="card-heading ml-3 mr-3">
+                           <img src="data:image/jpeg;base64,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" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                       </div> 
+                        <div class="card-body text-center">
+                            <h5 class="card-title">The J</h5>
+                            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="far fa-star" aria-hidden="true"></i>
+                            <p class="card-text">Average 4/5 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                   <div class="card zoom">
+                       <div class="card-heading ml-3 mr-3">
+                           <img src="https://5.imimg.com/data5/OR/OI/MY-10374842/south-indian-food-dosa-500x500.png" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                       </div> 
+                       <div class="card-body text-center">
+                           <h5 class="card-title">South Indian House</h5>
+                           <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+                           <p class="card-text">Average 5/5 </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 mt-4">
+                   <div class="card zoom">
+                       <div class="card-heading ml-3 mr-3">
+                        <img src="https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653__340.jpg" alt="1" class="img-responsive mt-2 " width="100%" height="200">
+                       </div> 
+                       <div class="card-body text-center">
+                           <h5 class="card-title">Pancakes</h5>
+                           <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="far fa-star" aria-hidden="true"></i>
+                           <p class="card-text">Average 4/5 </p>
+                       </div>
+                   </div>
+               </div>
+            </div>
+
+           
+         </div>
+      <!--div section-->
+<!--footer-->
+<footer class="text-center">
+     <h2 class="ml-3">e-<span style="color: green;">Food</span></h2>
+     <div class="container">
+       <div class="row">
+        <hr>
+         <div class="col-lg-4">
+          <ul>
+           <li>Any questions? Feel free to contact us!</li>
+           <li><i class="fa fa-map-marker mr-1"></i>Mumbai, India</li>
+           <li><i class="fa fa-mobile mr-1"></i>Phone: +9029992209</li>
+           <li><i class="fa fa-envelope mr-1"></i>Email: efood@gmail.com</li>
+          </ul>  
+         </div>
+         <div class="col-lg-4">
+          <ul>
+            <li>About e-Food</li>
+            <li>Become a Delivery Partner</li>
+            <li>Become a Restaurant Partner</li>
+           </ul> 
+        </div>
+        <div class="col-lg-4">
+          <ul>
+            <li>Help</li>
+            <li>Faq</li>
+            <li>Blogs</li>
+           </ul> 
+        </div>
+        <hr>
+    </div>
+    <div class="text-center container">
+      <img class="mb-4" src="https://logos-download.com/wp-content/uploads/2016/06/Download_on_the_App_Store_logo.png"alt="logo" width="12%" height="30">
+      <img class="mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqYLoVHvTwBGQMkTsgOiC4mJ_3UvWZ3TQqpQ&usqp=CAU" alt="logo" width="12%" height="30">
+    </div>
+    </div>
+</footer>
+<div class="container-fluid text-center mt-5 mb-5">
+  <a href="bandra.html" title="To Top">
+    <i class="fas fa-angle-up fa-2x"></i>
+  </a>
+ </div>
+<!--footer-->
+    </body>
+</html>

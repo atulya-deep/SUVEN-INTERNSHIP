@@ -1,0 +1,67 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --main-color: #21ba45;
+    --white-color: #fff;
+    --back-color: #f2f2f2;
+    --dark-color: #23272b;
+}
+body{
+    overflow-x: hidden;
+}
+/*****************************************Navbar*****************************************/
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--white-color);
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--white-color);
+}
+/*****************************************END Navbar*****************************************/
+.card-img-top{
+    width: 180px;
+    height: 125px;
+    padding: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card li{
+    margin: 2px;
+    text-align: left;
+    font-size: 15px;
+}
+.btn{
+    width: 100%;
+}
+.grayout{
+   color:  #6c757d!important;
+}
+.card:hover{
+    border-color: blue!important;
+}
+.img-face {
+    margin-left: 20px;
+    width: 55%;
+}
+.center{
+    justify-content: center;
+}
+.testi {
+    padding: 1rem 1rem;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-image: linear-gradient(rgb(247, 247, 247), white);
+}.faq{
+    background-image: linear-gradient(#f7f7f7,white);
+    padding: 40px 0;
+}
+.faq-face{
+    width: 10%;
+}

@@ -1,0 +1,64 @@
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/01/02/concert-336695__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .div{
+      height: 20px;
+      background-color: black;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+  nav  li {
+      float: left;
+      border-right:1px solid black;
+    }
+    
+   nav li:last-child {
+      border-right: 1px solid black;
+    }
+    
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    nav li a:hover:not(.active) {
+      background-color: #f00;
+      text-decoration: none;
+      color: white;
+    }
+    
+   nav .active {
+      background-color: red;
+      text-decoration: none;
+    }
+   nav .active:hover{
+      text-decoration: none;
+      color: white;
+    }
+    @media screen and (max-width: 600px) {
+      nav ul li, 
+     nav ul li {float: none; border-right: none;}
+      nav ul li:last-child{border-right: none;}
+      nav .new{
+        margin-right: 55px;
+      }
+    }
+
+    .backcolor{
+      background-image: url("https://images.assetsdelivery.com/compings_v2/sumaetho/sumaetho1509/sumaetho150901045.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+ 

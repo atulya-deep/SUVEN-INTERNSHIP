@@ -1,0 +1,135 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+:root {
+    --main-color: #21ba45;
+    --white-color: #fff;
+    --back-color: #f2f2f2;
+    --dark-color: #23272b;
+ 
+}
+/*****************************************Navbar*****************************************/
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--white-color);
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--white-color);
+}
+/*****************************************END Navbar*****************************************/
+
+/***************************************** Banner *****************************************/
+.home-banner{
+    position: relative;
+}
+.banner-img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.banner::after {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    top: 0;
+    content: "";
+    width: 100%;
+}
+.banner-head{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    right: 50%;
+    z-index: 11;
+    font-size: 50px;
+    transform: translateX(50%);
+    color: var(--white-color);
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.banner-par{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    right: 50%;
+    z-index: 11;
+    font-size: 20px;
+    transform: translateX(50%);
+    color: var(--white-color);
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.banner-btn{
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    right: 50%;
+    z-index: 11;
+    font-size: 17px;
+    transform: translateX(50%);
+    color: var(--white-color);
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.banner-link{
+    position: absolute;
+    text-align: center;
+    top: 87%;
+    right: 50%;
+    z-index: 11;
+    transform: translateX(50%);
+    color: var(--white-color);
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;  
+}
+/***************************************** End Banner*****************************************/
+/***************************************** Tenders*****************************************/
+.Revelant{
+    padding: 20px;
+    border-right: 2px solid grey;
+}
+.Receive{
+    padding: 20px;
+    border-left: 2px solid grey;
+}
+.icon {
+    font-size: 70px;
+    margin: auto;
+    color: #2571ce;
+    padding-bottom: 20px;
+}
+/***************************************** End Tenders*****************************************/
+/***************************************** Customers*****************************************/
+.logo{
+    width: 40%;
+    margin: auto;
+}
+.client{
+    width: 20%;
+    border-radius: 50%;
+}
+/***************************************** End Customers*****************************************/
