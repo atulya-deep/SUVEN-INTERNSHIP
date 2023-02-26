@@ -4,10 +4,7 @@ const app= express()
 app.use(express.json())
 app.use(express.static('public'))
 app.get('/',(req,res)=>{
-    console.log(req)
-    res.json({
-        message:'helo',
-        status: 300
+     res.sendfile('index.html')
 
     })
 })
